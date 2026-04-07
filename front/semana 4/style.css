@@ -1,0 +1,59 @@
+/* Estilo geral da página */
+body {
+  font-family: 'Poppins', Arial, sans-serif; /* Fonte moderna e clean */
+  background-color: #f0a1eb; /* Cor de fundo (cinza clarinho) */
+  margin: 0; /* Remove o espaço padrão do navegador */
+  padding: 30px; /* Espaço em volta do conteúdo */
+}
+
+/* Título principal */
+h1 {
+  text-align: center; /* Centraliza o texto */
+  color: #333; /* Cor do texto (cinza escuro) */
+}
+
+/* Caixa principal que segura tudo */
+.container {
+  max-width: 800px; /* Largura máxima da página */
+  margin: auto; /* Centraliza a caixa no meio da tela */
+  background: white; /* Fundo branco */
+  padding: 25px; /* Espaço interno */
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Remove as bolinhas da lista */
+#user-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Cada usuário da lista */
+#user-list li {
+  background: #faf9fb; /* Cor de fundo */
+  margin-bottom: 20px; /* Espaço entre os nomes */
+  padding: 20px; /* tamanho do bloco */
+  border-radius: 40px; /* Bordas arredondadas */
+  cursor: pointer; /* Mostra a mãozinha quando passa o mouse */
+  transition: 0.2s; /* Animação suave */
+}
+
+/* Efeito quando passa o mouse em cima */
+#user-list li:hover {
+  background: #f86ecc; /* Cor muda */
+  transform: scale(1.03); /* Dá um leve zoom */
+}
+
+/* Caixa onde aparecem os detalhes do usuário */
+#user-details {
+  margin-top: 20px; /* Espaço acima */
+  padding: 15px; /* Espaço interno */
+  background: #f86ecc; /* Fundo clarinho */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Nome do usuário dentro dos detalhes */
+#user-details h2 {
+  margin-top: 0;
+  color: #000000;
+}
